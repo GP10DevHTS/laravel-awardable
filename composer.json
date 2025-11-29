@@ -8,10 +8,17 @@
         "framework"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/gp10devhts/laravel-awardable"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "gp10devhts/laravel-awardable": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
