@@ -4,6 +4,7 @@ use Gp10devhts\Awardable\Tests\Models\User;
 use Gp10devhts\Awardable\Models\AwardCategory;
 
 uses(Gp10devhts\Awardable\Tests\TestCase::class);
+uses(Testcase::class);
 
 beforeEach(function () {
     $this->user = User::create(['name' => 'Test User']);
