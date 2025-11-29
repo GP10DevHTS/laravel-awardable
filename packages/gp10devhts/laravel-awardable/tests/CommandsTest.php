@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
 
+uses(Gp10devhts\Awardable\Tests\TestCase::class);
 uses(TestCase::class);
 
 it('can publish the package assets', function () {
